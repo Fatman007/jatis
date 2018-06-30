@@ -1,0 +1,19 @@
+1.Object Oriented Programming (OOP) merupakan paradigma pemrogaman yang berorientasikan kepada object. Semua data dan fungsi pada paradigma ini dibungkus dalam class class atau object object. Bandingkan dengan logika pemrogaman terstruktur, setiap object dapat menerima pesan, memproses data, dan mengirimkan pesan ke object lainnya. OOP diciptakan untuk mengatasi keterbatasan pada bahasa pemrogaman tradisional. Konsep dari OOP sendiri adalah semua pemecahan masalah dibagi kedalam object. Dalam konsep OOP data dan fungsi-fungsi yang akan mengoperasikannya digabungkan menjadi satu kesatuan yang dapat disebut sebagai object.
+
+2.Enkapsulasi adalah pembungkus, pembungkus disini dimaksudkan untuk menjaga suatu proses program agar tidak dapat diakses secara sembarangan atau di intervensi oleh program lain. Konsep enkapsulasi sangat penting dilakukan untuk menjaga kebutuhan program agar dapat diakses sewaktu-waktu, sekaligus menjaga program tersebut.
+
+  Inheritance atau Pewarisan/Penurunan adalah konsep pemrograman dimana sebuah class dapat ‘menurunkan’ property dan method yang dimilikinya kepada class lain
+
+  Polimorfisme dapat diartikan sebagai memiliki banyak bentuk. Dua objek atau lebih dikatakan sebagai polymorphic bila kedua objek tersebut mempunyai antarmuka identik namun mempunyai perilaku yang berbeda. Dalam pemrograman, polimorfisme dapat diartikan sebagai modul yang memiliki nama sama, namun memiliki behaviour (tingkah laku) yang berbeda sehingga listing code implementasinya juga berbeda.
+
+  Abstraksi adalah suatu cara melihat suatu objek dalam bentuk yang sederhana.
+
+3.Public artinya kelas, method, maupun variabel yang memiliki modifier ini bisa diakses oleh semua class, baik yang ada di package itu maupun yang bukan. Modifier ini juga memberikan akses kepada objek yang diinstans (dibentuk) di kelas tersebut.
+
+  Private artinya kelas, method, ataupun variabel yang memiliki modifier ini cuma bisa diakses oleh kelas itu sendiri. Kelas lain, maupun objek yang dibentuk oleh kelas lain sama sekali tidak punya akses method, kelas, maupun variabel dengan modifier private. 
+
+  Perintah final jika digunakan pada class maka class tersebut tidak bisa diturunkan dan bila digunakan pada method maka tidak bisa dilakukan overriding pada method tersebut. Seperti const di JS.
+
+4.Variable atau method yang dideklarasikan dengan perintah static dapat dipanggil langsung tanpa perlu membuat instance dari class tersebut.
+
+5.Garbage Collection adalah mekanisme Java untuk menghapus suatu objek dari memori tanpa perlu dideklarasikan secara eksplisit dalam program. Berfungsi untuk meningkatkan Management Memory yaitu kita dapat menghemat penggunaan memori, java akan menghapus sebuah objek yang tidak diperlukan atau tidak di referensikan lagi, ruang memori pada objek tersebut akan dimanfaatkan untuk keperluan lain sehingga tidak ada pemborosan memori
